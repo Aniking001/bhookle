@@ -36,7 +36,8 @@ const ContactUs = () => {
       
       {/* Header */}
       <div className="bg-white/80 backdrop-blur-sm border-b border-orange-200/50">
-       <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+
   
   {/* Logo + CONTACT US text */}
   <div className="flex items-center gap-3">

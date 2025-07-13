@@ -39,7 +39,8 @@ const ChefSignup = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
       {/* Header */}
       <div className="bg-white/80 backdrop-blur-sm border-b border-orange-200/50">
-  <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+  <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+
   
   {/* Logo + CONTACT US text */}
   <div className="flex items-center gap-3">
@@ -49,10 +50,7 @@ const ChefSignup = () => {
       className="h-10 w-auto cursor-pointer transition-transform duration-300 hover:scale-110"
       onClick={() => navigate('/')}
     />
-    <div className="flex items-baseline gap-1 sm:gap-2">
-      <span className="text-2xl font-bold text-[#FFB220]">Become a</span>
-      <span className="text-2xl font-bold text-purple-600">Chef</span>
-    </div>
+    
   </div>
 
   {/* Back to Home Button */}

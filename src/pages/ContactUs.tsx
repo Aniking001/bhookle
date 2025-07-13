@@ -46,10 +46,7 @@ const ContactUs = () => {
       className="h-10 w-auto cursor-pointer transition-transform duration-300 hover:scale-110"
       onClick={() => navigate('/')}
     />
-    <div className="flex items-baseline gap-1 sm:gap-2">
-      <span className="text-2xl font-bold text-[#FFB220]">CONTACT</span>
-      <span className="text-2xl font-bold text-purple-600">US</span>
-    </div>
+    
   </div>
 
   {/* Back to Home Button */}

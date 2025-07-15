@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock } from "lucide-react";
+import { Utensils } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -39,7 +40,7 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in opacity-0" style={{ animationDelay: '1.3s', animationFillMode: 'forwards' }}>
-              <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-wrap gap-4 items-center justify-center">
   <a href="https://apps.apple.com/in/app/bhookle/id6449941707" target="_blank" rel="noopener noreferrer">
     <img 
       src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
@@ -59,12 +60,24 @@ const Hero = () => {
 
             </div>
             
-            <div className="flex items-center justify-center lg:justify-start animate-fade-in opacity-0" style={{ animationDelay: '1.5s', animationFillMode: 'forwards' }}>
-              <div className="bg-white/90 backdrop-blur-sm rounded-full px-6 py-4 shadow-lg flex items-center gap-3 hover:shadow-2xl transition-all duration-500 hover:scale-105 group border border-orange-200 hover:border-purple-400">
-                 <Clock className="w-5 h-5 text-[#FFB220] group-hover:rotate-180 group-hover:text-purple-600 transition-all duration-500" />
-                <span className="text-gray-800 font-medium group-hover:text-purple-700 transition-colors duration-500">Fresh & Hot - Delivered in 1 Hour</span>
-              </div>
-            </div>
+            <div
+  className="flex items-center justify-center lg:justify-start animate-fade-in opacity-0"
+  style={{ animationDelay: "1.5s", animationFillMode: "forwards" }}
+>
+  <div className="bg-white/90 backdrop-blur-sm rounded-full px-6 py-4 shadow-lg flex items-center gap-3 hover:shadow-2xl transition-all duration-500 hover:scale-105 group border border-orange-200 hover:border-purple-400">
+    
+    {/* Food Icon */}
+    <Utensils className="w-5 h-5 text-green-600 group-hover:text-purple-600 transition-all duration-500" />
+    
+    {/* Clock Icon */}
+    <Clock className="w-5 h-5 text-[#FFB220] group-hover:rotate-180 group-hover:text-purple-600 transition-all duration-500" />
+    
+    {/* Text */}
+    <span className="text-gray-800 font-medium group-hover:text-purple-700 transition-colors duration-500">
+      Fresh & Hot Food – Delivered in 1 Hour
+    </span>
+  </div>
+</div>
           </div>
           
           <div className="flex-1 relative">

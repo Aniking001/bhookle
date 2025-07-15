@@ -18,7 +18,7 @@ const AppDownload = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-         <div className="flex flex-wrap gap-4 items-center">
+         <div className="flex flex-wrap gap-4 items-center justify-center">
   <a href="https://apps.apple.com/in/app/bhookle/id6449941707" target="_blank" rel="noopener noreferrer">
     <img 
       src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 

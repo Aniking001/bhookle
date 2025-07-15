@@ -35,8 +35,10 @@ const ContactUs = () => {
     <section className="min-h-screen bg-gradient-to-br from-[#FFF1D6] via-white to-purple-100">
       
       {/* Header */}
-      <div className="bg-white/80 backdrop-blur-sm border-b border-orange-200/50">
-       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      {/* Header */}
+<div className="bg-[#0a0a2a] backdrop-blur-sm border-b border-orange-200/50">
+  <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+
 
   
   {/* Logo + CONTACT US text */}
@@ -51,13 +53,14 @@ const ContactUs = () => {
   </div>
 
   {/* Back to Home Button */}
-  <button
-    onClick={() => navigate('/')}
-    className="flex items-center gap-2 border border-orange-300 rounded-lg px-4 py-2 text-gray-700 hover:bg-orange-50 transition self-start sm:self-auto"
-  >
-    <ArrowLeft className="w-4 h-4" />
-    Back to Home
-  </button>
+ <button
+  onClick={() => navigate('/')}
+  className="flex items-center gap-2 border border-orange-300 rounded-lg px-4 py-2 text-white hover:bg-orange-50 hover:text-orange-900 transition self-start sm:self-auto"
+>
+  <ArrowLeft className="w-4 h-4" />
+  Back to Home
+</button>
+
 </div>
 
       </div>
